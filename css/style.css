@@ -3,7 +3,7 @@
 
 body {
 	background: #91CBFF;
-	font-family:"Arial Black",Gadget,sans-serif;
+	font-family: arial, sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 	margin:0;
@@ -15,9 +15,6 @@ list-style-type:none;
 margin:0;
 padding:0;
 display:inline;
-position: absolute;
-top: 5px;
-right: 5px;
 }
 
 li
@@ -40,6 +37,8 @@ h1, h2 {
 	color: black;
 	line-height: 1;
 }
+
+
 
 
 /* ---------------------------------------------------------
@@ -67,8 +66,6 @@ The logo, Michael Kurtz
 }
 
 
-
-
 #header {
         height: 100px;
 }
@@ -77,28 +74,41 @@ The logo, Michael Kurtz
 #menu  a
 {
 display:block;
-width:100px;
+width: 350px;
 color: black;
+background-color:white;
 text-decoration: none;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+text-align: center;
 }
 
 
+#container {
+background-color:white;
+}
+
 #main {
-        background-color:white;
-        height: 375px;
-        border-bottom: 1px solid grey;
+        height: 360px;
         border-top: 2px solid grey;
 }
 
 #summary { 
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
-        font-family:arial, sans-serif;
         position: absolute;
         line-height: 120%;
         left: 400px;
         right: 50px;
         top: 200px;
+}
+
+#bio {
+		background-color:white;
+        height: 375px;
+        border-bottom: 1px solid grey;
+        font-size: small;
+        margin: 10% 10%;
 }
 
 #mikephoto {
@@ -108,11 +118,6 @@ text-decoration: none;
         top: 120px;
         }
 
-#social {
-        position: absolute;
-        right: 10px;
-        top:500px;
-}
 
 #middle {
         border-left:1px solid grey;
