@@ -1,27 +1,12 @@
-/* element styling */
-
+/* ---------------------------------------------------------
+HTML element styling
+----------------------------------------------------------*/
 
 body {
 	background: #91CBFF;
 	font-family: arial, sans-serif;
-	font-weight: bold;
 	font-size: 20px;
 }
-
-ul
-{
-list-style-type:none;
-margin:0;
-padding:0;
-display:inline;
-}
-
-/*
-li
-{
-float:right;
-}
-*/
 
 link {color:#FF0000;}      /* unvisited link */
 visited {color:#00FF00;}  /* visited link */
@@ -37,6 +22,14 @@ h1, h2 {
 	color: black;
 	line-height: 1;
 }
+
+
+h5 {
+	text-transform: uppercase;
+	color: black;
+}
+
+
 
 
 
@@ -64,45 +57,30 @@ The logo, Michael Kurtz
 	font-size: 40px;
 	text-shadow: none;
 }
-
+/* ----------------------------------------------------------
+Section formating
+-------------------------------------------------------------*/
 
 #header {
         height: 100px;
 }
 
-/*
-#menu  
-{
-height: 20%;
-border-top: 1px solid grey;
-border-bottom: 1px solid grey;
-}
-
-#menu  a
-{
-display:block;
-width:60px;
-}
-
-*/
-
-
-
-
 #summary { 
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
-        position: absolute;
-        width: 70%;
+        width: 90%;
         margin: 5% 5%;
+        	height:56px;
 }
 
-#bio {
+
+
+#switch_area {
 		background-color:white;
-		border-bottom: 1px solid grey;
         border-bottom: 1px solid grey;
         font-size: small;
-        margin: 20% 10% 10% 400px;
+        margin: 5% 10% 10% 400px;
+        line-height: 1.4;
 
 }
 
@@ -113,32 +91,73 @@ width:60px;
         top: 250px;
         }
 
-img
-		{
-			height: 75%;
-		}
-
-
 
 #footer { 
         border-top: 1px solid grey;
         width: 90%;
-        text-align: center;
         margin: 5% 5%;
 }
 
 #social{
-		margin: 0% 0% 0% 80%;
+		margin: 0px 0px 20px 80%;
 }
 
-
-h3 {
-	font-size: small;
-}
 
 #main {
-        margin: 0px 10% 0% 10%;
+        margin: 0% 10% 0% 10%;
         width: 900px;
         border-top: 2px solid grey;
         background-color:white;
 }
+
+#follow {
+		margin: 10px 0px 0px 0px ;
+}
+#resume {
+		display:none;
+}
+
+#summary h3, #summary ul
+{
+	display: inline;
+}
+
+#menu ul
+{
+	list-style-type: none;
+	padding:0;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+}
+
+#menu li {
+	display:inline-block;
+	width:130px;
+	height: 35px;
+	text-transform: uppercase;
+	padding:6px;
+	float:left;
+	text-align: center;
+}
+
+#menu a
+{ 
+list-style-type:none;
+margin:0;
+padding:0;
+text-decoration:none;
+}
+
+/*
+a:link {color:grey;}   
+
+a:visited {color:red;
+border:1px solid grey;
+	}  
+
+a:hover {color:yellow;}  
+
+a:active {color:orange;}  /* selected link */
+
+

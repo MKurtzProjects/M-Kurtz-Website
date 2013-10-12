@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<title>  Sign Up For The Contest! </title>
+
+<script type = "text/javascript">
+
+		var fieldCount = 1;
+		function addFriend() {
+			fieldCount++;
+			var newFriend = document.createElement('input');
+			newFriend.type = 'text';
+			newFriend.name = 'friend' + fieldCount;
+			newFriend.id = 'friend' + fieldCount;
+			document.getElementById('fs').appendChild(newFriend);
+	}
+
+
+	</script>
+
+
+</head>
+
+<body>
+	<h1> Free signup form </h1>
+	<form>
+
+		<label for="you">Your name</label>
+		<input type="text" name="you"  id="you">
+
+		
+
+		<fieldset id="fs">
+			<legend> Friends you wish to invite </legend>
+			<button onclick="addFriend(); return false"> Add another friend </button>
+			<input type="text" name="friend1" id="friend1">
+		</fieldset>
+		<br>
+		
+
+		<input type="submit" value="Save details">
+	</form>
+</body>
+
+
+
+</html>
