@@ -2,162 +2,82 @@
 HTML element styling
 ----------------------------------------------------------*/
 
-body {
-	background: #91CBFF;
-	font-family: arial, sans-serif;
+
+/*The prominent name over the main photo -------------------------------------
+------------------------------------------------------------------------------*/
+
+#name
+{
+position:absolute;
+left:20px;
+top:20px;
+color:white;
+font-size: 150px;
+}
+
+/*The giant photo banner up top ----------------------------------------------
+------------------------------------------------------------------------------*/
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin:0px;
+}
+
+/*Mike's name below the photo -------------------------------------
+------------------------------------------------------------------------------*/
+#mikephoto {
+        display:block;
+        text-align: center;
+        padding-bottom:10px;
+        }
+
+#heading {
 	font-size: 20px;
-}
-
-link {color:#FF0000;}      /* unvisited link */
-visited {color:#00FF00;}  /* visited link */
-hover {color:#FF00FF;}  /* mouse over link */
-active {color:#0000FF;}  /* selected link */
-
-
-h1, h2 {
-	font-weight: normal;
-	margin: 0;
-	font-family:'Bowlby One SC',"Arial Black",Gadget,sans-serif;
-	text-transform: uppercase;
-	color: black;
-	line-height: 1;
+	text-align: center;
+	margin-top: 2%;
 }
 
 
-h5 {
-	text-transform: uppercase;
-	color: black;
-}
-
-
-
-
-
-
-/* ---------------------------------------------------------
-The logo, Michael Kurtz
-----------------------------------------------------------*/
-
-#name1 {
-	position: absolute;
-	top: 12px;
-	left: 0px;
-	color: #33333D;
-	opacity: .25;
-	font-size: 40px;
-	text-shadow: none;
-}
-
-#name2 {
-	position: absolute;
-	top: 46px;
-	left: 150px;
-	color: #33333D;
-	opacity: .4;
-	font-size: 40px;
-	text-shadow: none;
-}
-/* ----------------------------------------------------------
-Section formating
--------------------------------------------------------------*/
-
-#header {
-        height: 100px;
-}
-
-#summary { 
-        border-top: 1px solid grey;
-        border-bottom: 1px solid grey;
-        width: 90%;
-        margin: 5% 5%;
-        	height:56px;
-}
-
-
-
-#switch_area {
-		background-color:white;
-        border-bottom: 1px solid grey;
-        font-size: small;
-        margin: 5% 10% 10% 400px;
-        line-height: 1.4;
-
-}
+/*The round photo of Mike -------------------------------------
+------------------------------------------------------------------------------*/
 
 #mikephoto {
         display:block;
-        position:absolute;
-        left: 15%;
-        top: 250px;
+        text-align: center;
+        padding-bottom:10px;
         }
 
+/*Formatting for the About/ Resumer menu -------------------------------------
+------------------------------------------------------------------------------*/
 
-#footer { 
-        border-top: 1px solid grey;
-        width: 90%;
-        margin: 5% 5%;
-}
-
-#social{
-		margin: 0px 0px 20px 80%;
-}
-
-
-#main {
-        margin: 0% 10% 0% 10%;
-        width: 900px;
-        border-top: 2px solid grey;
-        background-color:white;
-}
-
-#follow {
-		margin: 10px 0px 0px 0px ;
-}
-#resume {
-		display:none;
-}
-
-#summary h3, #summary ul
+ul
 {
-	display: inline;
+position:absolute;
+bottom: 30px;
+display:block;
+width:200px;
+right:30px;
+color:white;
+font-size: 30px;
+margin: 4px;
 }
 
-#menu ul
+li
 {
-	list-style-type: none;
-	padding:0;
-	padding-top: 6px;
-	padding-bottom: 6px;
-
+float:right;
+display:block;
+background-color: #99FF99;
 }
 
-#menu li {
-	display:inline-block;
-	width:130px;
-	height: 35px;
-	text-transform: uppercase;
-	padding:6px;
-	float:left;
-	text-align: center;
+body {
+	background-image:url('../images/noise.png')
 }
 
-#menu a
-{ 
-list-style-type:none;
-margin:0;
-padding:0;
-text-decoration:none;
+.container {
+	background-color:white;
+	position:relative;
+	top:-5px;
 }
-
-/*
-a:link {color:grey;}   
-
-a:visited {color:red;
-border:1px solid grey;
-	}  
-
-a:hover {color:yellow;}  
-
-a:active {color:orange;}  /* selected link */
-
-
